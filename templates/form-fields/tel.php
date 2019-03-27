@@ -1,5 +1,5 @@
 <span class="mwform-tel-field">
-	<input type="text"
+	<input type="tel"
 		name="<?php echo esc_attr( $fields[0]['name'] ); ?>"
 		<?php echo MWF_Functions::generate_input_attribute( 'class', $fields[0]['class'] ); ?>
 		<?php echo MWF_Functions::generate_input_attribute( 'size', $fields[0]['size'] ); ?>
@@ -8,7 +8,7 @@
 		<?php echo MWF_Functions::generate_input_attribute( 'data-conv-half-alphanumeric', $fields[0]['conv-half-alphanumeric'] ); ?>
 	/>
 	<?php echo esc_html( $separator ); ?>
-	<input type="text"
+	<input type="tel"
 		name="<?php echo esc_attr( $fields[1]['name'] ); ?>"
 		<?php echo MWF_Functions::generate_input_attribute( 'class', $fields[1]['class'] ); ?>
 		<?php echo MWF_Functions::generate_input_attribute( 'size', $fields[1]['size'] ); ?>
@@ -17,7 +17,7 @@
 		<?php echo MWF_Functions::generate_input_attribute( 'data-conv-half-alphanumeric', $fields[1]['conv-half-alphanumeric'] ); ?>
 	/>
 	<?php echo esc_html( $separator ); ?>
-	<input type="text"
+	<input type="tel"
 		name="<?php echo esc_attr( $fields[2]['name'] ); ?>"
 		<?php echo MWF_Functions::generate_input_attribute( 'class', $fields[2]['class'] ); ?>
 		<?php echo MWF_Functions::generate_input_attribute( 'size', $fields[2]['size'] ); ?>
